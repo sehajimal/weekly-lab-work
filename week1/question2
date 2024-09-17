@@ -1,0 +1,14 @@
+#!/bin/bash
+X=$PWD
+$PWD
+echo 'Where would you like to go: '
+read varname
+cd ~
+$PWD
+cd $varname
+$PWD
+ls -l
+rm *.tmp
+ls -l
+cd $X
+$PWD
