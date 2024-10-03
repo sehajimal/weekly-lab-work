@@ -1,0 +1,9 @@
+cat /home/ajimals/2XC3-data/gutenberg/spanish/nazarin.txt |./splt |wc |./wstat
+
+cat /home/ajimals/2XC3-data/gutenberg/spanish/* |./splt |wc |./wstat
+
+cat /home/ajimals/2XC3-data/gutenberg/spanish/* |./splt | head -100 |wc |./wstat
+
+cat /home/ajimals/2XC3-data/gutenberg/spanish/* |./splt| tail -100  |wc |./wstat
+
+cat /home/ajimals/2XC3-data/gutenberg/spanish/*|./splt | sort -u |wc |./wstat

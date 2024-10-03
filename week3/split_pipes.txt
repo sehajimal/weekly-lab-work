@@ -1,0 +1,11 @@
+cat /home/ajimals/2XC3-data/gutenberg/english/* | uniq -u | ./splt
+
+cat /home/ajimals/2XC3-data/gutenberg/english/* | uniq -u | ./splt | wc -w
+
+cat /home/ajimals/2XC3-data/gutenberg/english/* | uniq -u | ./splt > lexicon.txt
+
+cat /home/ajimals/2XC3-data/gutenberg/english/* | uniq -u | ./splt | head -1
+
+cat /home/ajimals/2XC3-data/gutenberg/english/* | uniq -u | ./splt | tail -1
+
+cat /home/ajimals/2XC3-data/gutenberg/english/* | uniq -u | ./splt | head -9998 | tail -1
