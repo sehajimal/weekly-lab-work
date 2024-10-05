@@ -1,0 +1,4 @@
+#!/bin/bash
+./example < ex3.2.2
+read line
+echo $line

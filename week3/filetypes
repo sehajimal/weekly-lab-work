@@ -1,0 +1,25 @@
+#!/bin/bash
+if [[ $# = 0 ]]
+then
+    echo "Error" >&2
+    exit 1
+fi
+
+for arg in "$@"
+do
+    if [[ -f $arg ]]
+    then
+        FILES=$arg 
+    elif [[ -d $arg ]]
+    then
+        DIRECTORIES=$arg
+    else
+        UNKNOWN=$arg
+    fi 
+
+done
+
+echo "directory: $DIRECTORIES"
+echo "file:      $FILES"
+echo "unknown:   $UNKNOWN"
+
