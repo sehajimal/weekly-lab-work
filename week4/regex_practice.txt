@@ -1,0 +1,13 @@
+1. Matching: '^re*ge+x', '(reg){0,2}ex', 're?g?e?x'
+
+non-matching: 'REGEX', [^regex], '^(reg|REG)(ex)\2\1$' 
+
+2a. Matching: aaba, aabababa
+b.    ''      abc
+c.    ''      abc, abbbbbbbb, azc, abcbcbcbc, asccbbbbcbcccc 
+d.    ''      abc, xyz 
+e.    ''      swamping.
+f.    ''      Putt=, Brittle=, Other.= 
+g.    ''      g. H, i? J
+h.    ''      <an xml tag>, <opentag>, <closetag>, </closetag>, <with attribute="77"> 
+i.    ''      very very very well-dresses person 
