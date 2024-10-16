@@ -1,0 +1,7 @@
+I will be comparing my experience with C to Python. 
+
+One advantage that C provides it that I can customize how many decimal places I want to print in C. I am not completley sure if this is available in python, but if it is I do not think it can be done as easily as it is in C. In C I am able to format it exactly like how I want which is more efficient. 
+
+One trap in C is making sure to declare a string properly. In python it is very easy just need to define a normal variable and use "" to show that it is a string. Whereas in C you need to use the * which can be easily forgotten and will ruin the program.
+
+I prefer python because it is very versatile, simple and easy to use.
