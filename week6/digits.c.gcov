@@ -1,0 +1,30 @@
+        -:    0:Source:digits.c
+        -:    0:Graph:testdigits-digits.gcno
+        -:    0:Data:testdigits-digits.gcda
+        -:    0:Runs:2
+        -:    1:/* Starter code for Lab 6.1 Activity
+        -:    2: *
+        -:    3: * This file will not compile as is. You need to create the digits function.
+        -:    4: *
+        -:    5: */
+        -:    6:#include <stdio.h>
+        -:    7:#include <stdlib.h>
+        -:    8:
+        2:    9:int digits(long n, int *maximum, int *minimum){
+        2:   10:	int sum  = 0;
+        2:   11:	*maximum = 1;
+        2:   12:	*minimum = 9;
+       14:   13:	while(n>0){
+       12:   14:		int digit = n%10;
+       12:   15:		sum +=digit;
+       12:   16:		if  (digit >*maximum){
+        4:   17:			*maximum = digit;
+        -:   18:		}
+       12:   19:		if  (digit <*minimum){
+        6:   20:            *minimum = digit;
+        -:   21:        }
+       12:   22:		n = n/10;
+        -:   23:	}
+        2:   24:	return sum;
+        -:   25:}
+        -:   26:
