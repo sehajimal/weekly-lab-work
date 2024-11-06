@@ -1,0 +1,7 @@
+Pointers vs Indicies
+
+Advantage of using pointer arithmetic: The biggest advantage I see is that I can access certain array indicies quickly by the use of a pointer. And I can increment and decrement without having to write more code (like a[i]). 
+
+Disadvantage of using pointer arithmetic: The disadvantage is that pointer arithmetic can make code harder to read and understand especially if you are a begginner. Moreover, it can cause errors in boundry's, since I might be accessing something out of bounds and causing weird behaviours.
+
+Style I prefer: Hence I prefer the use of indicies just because I am a beginner and not too comfortable with Pointers yet. However maybe in the future I will become more comfortable with pointers and prefer using them.
