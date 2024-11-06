@@ -37,3 +37,14 @@ int count(int n, int a[n], int key){
     printf("%d\n", count);
     return count;
 }
+
+int count2d(int rows, int col, int a[rows][col], int key) {
+
+    int count2d = 0;
+
+    for (int i = 0; i < rows; i++) {
+        count2d += count(a[i], key, col);
+    }
+
+    return count2d;
+}
